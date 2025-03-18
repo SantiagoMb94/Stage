@@ -1,0 +1,28 @@
+{
+  "name": "stage",
+  "version": "1.0.0",
+  "description": "Stage",
+  "main": "index.js",
+  "scripts": {
+    "test": "QA",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantiagoMb94/Stage.git"
+  },
+  "keywords": [
+    "e2e",
+    "automatition",
+    "cypress"
+  ],
+  "author": "Santiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiagoMb94/Stage/issues"
+  },
+  "homepage": "https://github.com/SantiagoMb94/Stage#readme",
+  "dependencies": {
+    "cypress": "^14.2.0"
+  }
+}
