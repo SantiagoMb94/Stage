@@ -1,7 +1,7 @@
 describe('Registro - Etapa 1', () => {
   beforeEach(() => {
     // Configurar el tamaño del viewport para que coincida con 1000x660
-    cy.viewport(1368 , 768 );
+    cy.viewport(1920 , 1080 );
     // Visitar la URL de la etapa de registro
     cy.visit('https://stage.sumasolution.com/login/register/stage/one');
   });
