@@ -1,6 +1,6 @@
 describe('Login - Etapa 1', () => {
   beforeEach(() => {
-    cy.viewport(1920 , 1080 );
+    cy.viewport(1920 , 1080);
     cy.visit('https://stage.sumasolution.com/login/');
   });
 
@@ -27,12 +27,6 @@ describe('Login - Etapa 1', () => {
 
       cy.get('.suma-width-177')
       .should('be.visible')
-      .click();
-      cy.wait(200)
-      
-      cy.get('.suma-height-24')
-      .should('be.visible')
-      //.go('be.visible')
       .click();
       cy.wait(200)
 
